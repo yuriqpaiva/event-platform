@@ -12,9 +12,13 @@ interface LessonProps {
 export function Lesson({ title, slug, availableAt, type }: LessonProps) {
   // If availableAt has passed, then show the available content.
   const isLessonAvailable = isPast(availableAt);
+
   const availableDateFormatted = format(
     availableAt,
+
+    // Characters that are between single quotes will be ignored by date fns
     "EEEE' • 'd' de 'MMMM' • 'k'h'mm",
+    
     { locale: ptBr }
   );
 
