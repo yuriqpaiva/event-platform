@@ -3,6 +3,9 @@ module.exports = {
   content: ['./src/**/*.tsx'],
   theme: {
     extend: {
+      backgroundImage: {
+        blur: 'url(/src/assets/blur-background.png)',
+      },
       fontFamily: {
         sans: 'Roboto, sans-serif',
       },
@@ -28,10 +31,10 @@ module.exports = {
           500: '#323238',
           600: '#29292E',
           700: '#121214',
-          900: '#09090A'
-        }
+          900: '#09090A',
+        },
       },
     },
   },
   plugins: [],
-}
+};

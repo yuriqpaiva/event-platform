@@ -46,8 +46,6 @@ export function Video({ lessonSlug }: VideoProps) {
     variables: { slug: lessonSlug },
   });
 
-  console.log(data);
-
   if (!data) {
     return <div className="flex-1"></div>;
   }
