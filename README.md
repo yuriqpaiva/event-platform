@@ -1,4 +1,4 @@
-# Event Platform &middot; ![language](https://img.shields.io/github/languages/top/yuriqpaiva/event-platform?color=blueviolet) ![language-count](https://img.shields.io/github/languages/count/yuriqpaiva/event-platform?color=blueviolet) ![license](https://img.shields.io/github/license/yuriqpaiva/event-platform?color=blueviolet)
+# Event Platform &middot; ![language](https://img.shields.io/github/languages/top/yuriqpaiva/event-platform?color=blueviolet) ![language-count](https://img.shields.io/github/languages/count/yuriqpaiva/event-platform?color=blueviolet) ![license](https://img.shields.io/github/license/yuriqpaiva/event-platform?color=red)
 
 
 ![image](/public/images/app.png)
